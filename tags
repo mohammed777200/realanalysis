@@ -1,0 +1,309 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/marhnine/Math Project/src/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+%.o	Makefile	/^%.o : %.c$/;"	t
+ALLOC_H	alloc.h	/^#define ALLOC_H$/;"	d
+AQUAMARINE	plot.h	/^#define AQUAMARINE /;"	d
+BLACK	plot.h	/^#define BLACK /;"	d
+BLUE	plot.h	/^#define BLUE /;"	d
+BOOL	structs.h	/^  BOOL,$/;"	e	enum:Type
+BROWN	plot.h	/^#define BROWN /;"	d
+CC	Makefile	/^CC = tcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -I\/usr\/include\/plplot$/;"	m
+CHAR	structs.h	/^  CHAR,$/;"	e	enum:Type
+CMP_H	cmp.h	/^#define CMP_H$/;"	d
+CYAN	plot.h	/^#define CYAN /;"	d
+DEMAND	structs.h	/^  DEMAND,$/;"	e	enum:Type
+DOUBLE	structs.h	/^  DOUBLE,$/;"	e	enum:Type
+Demand	structs.h	/^typedef struct Demand$/;"	s
+Demand	structs.h	/^}Demand;$/;"	t	typeref:struct:Demand
+ECONOMY	structs.h	/^  ECONOMY,$/;"	e	enum:Type
+EQ_LINEAR	equation.c	/^#define EQ_LINEAR(/;"	d	file:
+EQ_LINEAR_AT_ZERO	equation.c	/^#define EQ_LINEAR_AT_ZERO(/;"	d	file:
+EXECDIR	Makefile	/^EXECDIR = exec$/;"	m
+Economy	structs.h	/^typedef struct Economy$/;"	s
+Economy	structs.h	/^}Economy;$/;"	t	typeref:struct:Economy
+FLOAT	structs.h	/^  FLOAT,$/;"	e	enum:Type
+FUNCTION	structs.h	/^  FUNCTION,$/;"	e	enum:Type
+FUNCTION_H	function.h	/^#define FUNCTION_H$/;"	d
+FrontBackSplit	linkedlist.c	/^void FrontBackSplit(struct Node* source,$/;"	f	typeref:typename:void
+Function	structs.h	/^typedef struct Function$/;"	s
+Function	structs.h	/^}Function;$/;"	t	typeref:struct:Function
+GET_VALUE	polynomial.c	/^#define GET_VALUE(/;"	d	file:
+GRAPH	structs.h	/^  GRAPH,$/;"	e	enum:Type
+GREEN	plot.h	/^#define GREEN /;"	d
+GREY	plot.h	/^#define GREY /;"	d
+Graph	structs.h	/^typedef struct Graph $/;"	s
+Graph	structs.h	/^}Graph;$/;"	t	typeref:struct:Graph
+HASHING	hashtable.c	/^#define HASHING(/;"	d	file:
+HASHTABLE	structs.h	/^  HASHTABLE,$/;"	e	enum:Type
+HASHTABLE_H	hashtable.h	/^#define HASHTABLE_H$/;"	d
+HELPER_H	helper.h	/^#define HELPER_H$/;"	d
+HT_LENGTH	set.c	/^#define HT_LENGTH /;"	d	file:
+HT_M	hashtable.h	/^#define HT_M /;"	d
+HashTable	structs.h	/^typedef struct HashTable$/;"	s
+HashTable	structs.h	/^}HashTable;$/;"	t	typeref:struct:HashTable
+INT	structs.h	/^  INT,$/;"	e	enum:Type
+LDFLAGS	Makefile	/^LDFLAGS = -L\/usr\/lib -lplplot -lm -lcjson$/;"	m
+LINKEDLIST_H	linkedlist.h	/^#define LINKEDLIST_H$/;"	d
+LOG	log.h	/^#define LOG(/;"	d
+LOG_H	log.h	/^#define LOG_H$/;"	d
+LONG_DOUBLE	structs.h	/^  LONG_DOUBLE,$/;"	e	enum:Type
+Line	graph.c	/^typedef struct Line$/;"	s	file:
+Line	graph.c	/^}Line;$/;"	t	typeref:struct:Line	file:
+MAGENTA	plot.h	/^#define MAGENTA /;"	d
+MAX	set.h	/^#define MAX(/;"	d
+MIN	set.h	/^#define MIN(/;"	d
+NODE	structs.h	/^  NODE,$/;"	e	enum:Type
+N_VALUE	polynomial.c	/^#define N_VALUE(/;"	d	file:
+Node	structs.h	/^typedef struct Node$/;"	s
+Node	structs.h	/^}Node;$/;"	t	typeref:struct:Node
+OBJDIR	Makefile	/^OBJDIR = obj$/;"	m
+OBJS	Makefile	/^OBJS := $(addprefix $(OBJDIR)\/, $(PRE_OBJS))$/;"	m
+PINK	plot.h	/^#define PINK /;"	d
+PLOT	plot.c	/^#define PLOT(/;"	d	file:
+PLOT_H	plot.h	/^#define PLOT_H$/;"	d
+PL_END	plot.c	/^#define PL_END$/;"	d	file:
+PL_INIT	plot.c	/^#define PL_INIT$/;"	d	file:
+POINT	structs.h	/^  POINT,$/;"	e	enum:Type
+POINT_H	point.h	/^#define POINT_H$/;"	d
+POLYNOMIAL	structs.h	/^  POLYNOMIAL,$/;"	e	enum:Type
+POLYNOMIAL_H	polynomial.h	/^#define POLYNOMIAL_H$/;"	d
+PRE_OBJS	Makefile	/^PRE_OBJS = $(SRCS:.c=.o)$/;"	m
+Point	structs.h	/^typedef struct Point$/;"	s
+Point	structs.h	/^}Point;$/;"	t	typeref:struct:Point
+Polynomial	structs.h	/^typedef struct Polynomial$/;"	s
+Polynomial	structs.h	/^}Polynomial;$/;"	t	typeref:struct:Polynomial
+RED	plot.h	/^#define RED /;"	d
+SALMON	plot.h	/^#define SALMON /;"	d
+SET	structs.h	/^  SET,$/;"	e	enum:Type
+SET_H	set.h	/^#define SET_H$/;"	d
+SET_INTERVAL	function.c	/^#define SET_INTERVAL(/;"	d	file:
+SET_INTERVAL_REAL	function.c	/^#define SET_INTERVAL_REAL(/;"	d	file:
+SRCDIR	Makefile	/^SRCDIR = $(shell pwd)$/;"	m
+SRCS	Makefile	/^SRCS = $(wildcard *.c)$/;"	m
+STRUCTS_H	structs.h	/^#define STRUCTS_H$/;"	d
+SUPPLY	structs.h	/^  SUPPLY,$/;"	e	enum:Type
+Set	structs.h	/^typedef struct Set$/;"	s
+Set	structs.h	/^}Set;$/;"	t	typeref:struct:Set
+SortedMerge	linkedlist.c	/^struct Node* SortedMerge(struct Node* a, struct Node* b)$/;"	f	typeref:struct:Node *
+Supply	structs.h	/^typedef struct Supply$/;"	s
+Supply	structs.h	/^}Supply;$/;"	t	typeref:struct:Supply
+TERM	polynomial.c	/^#define TERM(/;"	d	file:
+TERM	structs.h	/^  TERM,$/;"	e	enum:Type
+TURQUOISE	plot.h	/^#define TURQUOISE /;"	d
+TYPES_H	type.h	/^#define TYPES_H$/;"	d
+Term	structs.h	/^typedef struct Term$/;"	s
+Term	structs.h	/^}Term;$/;"	t	typeref:struct:Term
+Type	structs.h	/^typedef enum Type$/;"	g
+Type	structs.h	/^}Type;$/;"	t	typeref:enum:Type
+U_INT	structs.h	/^  U_INT,$/;"	e	enum:Type
+WHEAT	plot.h	/^#define WHEAT /;"	d
+WHITE	plot.h	/^#define WHITE /;"	d
+YELLOW	plot.h	/^#define YELLOW /;"	d
+_CMP	cmp.c	/^#define _CMP(/;"	d	file:
+_FUNC_POLYNOMIAL	function.c	/^#define _FUNC_POLYNOMIAL(/;"	d	file:
+_LOGGING_	log.h	/^#define _LOGGING_$/;"	d
+_M_	set.h	/^#define _M_ /;"	d
+_abs	graph.c	/^static double _abs(double x)$/;"	f	typeref:typename:double	file:
+_codomain_generate_pts	graph.c	/^Set *_codomain_generate_pts(Set *res, Node *domain, Node *codomain, Node *unified_domain)$/;"	f	typeref:typename:Set *
+_dslope	economy.c	/^double _dslope, _sslope;$/;"	v	typeref:typename:double
+_eco_init_points	economy.c	/^static void _eco_init_points(Set *domain, Set *codomain, unsigned int cardinal, PLFLT *x, PLFLT /;"	f	typeref:typename:void	file:
+_eco_interval_calc	economy.c	/^static void _eco_interval_calc(Economy *eco)$/;"	f	typeref:typename:void	file:
+_eco_lable_legend	economy.c	/^static void _eco_lable_legend(const char *equilibrium)$/;"	f	typeref:typename:void	file:
+_equation_calc	graph.c	/^double _equation_calc(Line *l, double x)$/;"	f	typeref:typename:double
+_func_init_points	function.c	/^static void _func_init_points(Function *f, unsigned int cardinal, PLFLT *x, PLFLT *y)$/;"	f	typeref:typename:void	file:
+_func_polynomial	function.c	/^static void _func_polynomial(char *poly, Function **func)$/;"	f	typeref:typename:void	file:
+_func_set_interval	function.c	/^static void _func_set_interval(Set **s, void *a, void *b)$/;"	f	typeref:typename:void	file:
+_is_not_func	graph.c	/^static bool _is_not_func(Node *domain)$/;"	f	typeref:typename:bool	file:
+_is_same_domain	graph.c	/^static bool _is_same_domain(Node *domain1, Node *domain2)$/;"	f	typeref:typename:bool	file:
+_len	plot.c	/^#define _len /;"	d	file:
+_line_form	graph.c	/^Line *_line_form(double x_a, double x_b, double y_a, double y_b)$/;"	f	typeref:typename:Line *
+_pl_init_points	plot.c	/^static void _pl_init_points(Function *f, unsigned int cardinal, PLFLT *x, PLFLT *y, Point *solut/;"	f	typeref:typename:void	file:
+_polynomial_simpilification	polynomial.c	/^static void _polynomial_simpilification(Polynomial **poly)$/;"	f	typeref:typename:void	file:
+_print_point_by_type	set.c	/^static void _print_point_by_type(Point *p, Type dt)$/;"	f	typeref:typename:void	file:
+_set_init_points	set.c	/^static void _set_init_points(Set *domain, Set *codomain, unsigned int cardinal, PLFLT *x, PLFLT /;"	f	typeref:typename:void	file:
+_set_print_by_type	set.c	/^static void _set_print_by_type(void *n, Type dt)$/;"	f	typeref:typename:void	file:
+_solve_equation	graph.c	/^double _solve_equation(Line *l1, Line *l2)$/;"	f	typeref:typename:double
+_sslope	economy.c	/^double _dslope, _sslope;$/;"	v	typeref:typename:double
+a	economy.c	/^static double a=0, b=10;$/;"	v	typeref:typename:double	file:
+age	info.json	/^  "age":"25",$/;"	s
+alloc_type	type.c	/^void *alloc_type(Type dt, unsigned int n)$/;"	f	typeref:typename:void *
+b	economy.c	/^static double a=0, b=10;$/;"	v	typeref:typename:double	file:
+bLUEvIOLETA	plot.h	/^#define bLUEvIOLETA /;"	d
+cardinal	structs.h	/^  unsigned int cardinal; \/\/ count of how many keys listed in hashtable$/;"	m	struct:HashTable	typeref:typename:unsigned int
+cardinal	structs.h	/^  unsigned int cardinal;$/;"	m	struct:Set	typeref:typename:unsigned int
+chartoint	helper.c	/^int chartoint(char c)$/;"	f	typeref:typename:int
+clean	Makefile	/^clean:$/;"	t
+cmp_cmp	cmp.c	/^bool cmp_cmp(void *a, void *b, Type dt)$/;"	f	typeref:typename:bool
+codomain	structs.h	/^  Set *codomain;$/;"	m	struct:Function	typeref:typename:Set *
+codomain	structs.h	/^  Set *codomain;$/;"	m	struct:Graph	typeref:typename:Set *
+codomain1	main.c	/^float codomain1[10]={ 9, 8.3, 3.4, 4.1, 5.99, 7, 1, 3, 5, 9 };$/;"	v	typeref:typename:float[10]
+codomain2	main.c	/^float codomain2[10]={ 4, 9, 3, 1, 7, 6.1, 12, 1, 8, 12 };$/;"	v	typeref:typename:float[10]
+coefficient	structs.h	/^  double coefficient;$/;"	m	struct:Term	typeref:typename:double
+color	info.json	/^  "color":"black",$/;"	s
+data	structs.h	/^  void *data;$/;"	m	struct:Node	typeref:typename:void *
+data_type	structs.h	/^  Type data_type;$/;"	m	struct:Set	typeref:typename:Type
+delta	structs.h	/^  void *delta;$/;"	m	struct:Set	typeref:typename:void *
+demand	structs.h	/^  Demand *demand;$/;"	m	struct:Economy	typeref:typename:Demand *
+domain	structs.h	/^  Set *domain;$/;"	m	struct:Function	typeref:typename:Set *
+domain	structs.h	/^  Set *domain;$/;"	m	struct:Graph	typeref:typename:Set *
+domain1	main.c	/^float domain1[10]  ={ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };$/;"	v	typeref:typename:float[10]
+domain2	main.c	/^float domain2[10]  ={ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };$/;"	v	typeref:typename:float[10]
+dt_size	type.c	/^unsigned int dt_size(Type dt)$/;"	f	typeref:typename:unsigned int
+eco_abs	economy.c	/^double eco_abs(double n)$/;"	f	typeref:typename:double
+eco_affect_demand	economy.c	/^Demand *eco_affect_demand(const Demand * const demand, double e)$/;"	f	typeref:typename:Demand *
+eco_affect_supply	economy.c	/^Supply *eco_affect_supply(const Supply * const supply, double e)$/;"	f	typeref:typename:Supply *
+eco_calc_equilibrium	economy.c	/^Economy *eco_calc_equilibrium(Economy *eco)$/;"	f	typeref:typename:Economy *
+eco_demand_end	economy.c	/^Demand *eco_demand_end(Demand *demand)$/;"	f	typeref:typename:Demand *
+eco_demand_init	economy.c	/^Demand *eco_demand_init()$/;"	f	typeref:typename:Demand *
+eco_elasticity_demand	economy.c	/^void eco_elasticity_demand(Demand **demand)$/;"	f	typeref:typename:void
+eco_elasticity_supply	economy.c	/^void eco_elasticity_supply(Supply **supply)$/;"	f	typeref:typename:void
+eco_end	economy.c	/^Economy *eco_end(Economy *eco)$/;"	f	typeref:typename:Economy *
+eco_feed_demand	economy.c	/^Demand *eco_feed_demand(Demand *demand, double *quantitys, double *prices, unsigned int count)$/;"	f	typeref:typename:Demand *
+eco_feed_supply	economy.c	/^Supply *eco_feed_supply(Supply *supply, double *quantitys, double *prices, unsigned int count)$/;"	f	typeref:typename:Supply *
+eco_init	economy.c	/^Economy *eco_init()$/;"	f	typeref:typename:Economy *
+eco_plot_demand_supply	economy.c	/^void eco_plot_demand_supply(const Demand * const demand, const Supply * const supply, Point *equ/;"	f	typeref:typename:void
+eco_supply_end	economy.c	/^Supply *eco_supply_end(Supply *supply)$/;"	f	typeref:typename:Supply *
+eco_supply_init	economy.c	/^Supply *eco_supply_init()$/;"	f	typeref:typename:Supply *
+elasticity	structs.h	/^  double elasticity;$/;"	m	struct:Demand	typeref:typename:double
+elasticity	structs.h	/^  double elasticity;$/;"	m	struct:Supply	typeref:typename:double
+engine	Makefile	/^engine: ${PRE_OBJS}$/;"	t
+eq_linear	equation.c	/^Point *eq_linear(const char *expr1, const char *expr2, Type dt)$/;"	f	typeref:typename:Point *
+eq_linear_at_zero	equation.c	/^void eq_linear_at_zero(Polynomial *poly, Type dt)$/;"	f	typeref:typename:void
+equilibrium	structs.h	/^  Point  *equilibrium;$/;"	m	struct:Economy	typeref:typename:Point *
+ex_calloc	alloc.c	/^void *ex_calloc(size_t nmemb, size_t size)$/;"	f	typeref:typename:void *
+ex_free	alloc.c	/^void ex_free(void *p)$/;"	f	typeref:typename:void
+ex_malloc	alloc.c	/^void *ex_malloc(size_t size)$/;"	f	typeref:typename:void *
+exiting	main.c	/^void exiting()$/;"	f	typeref:typename:void
+flag	equation.c	/^bool flag=0;$/;"	v	typeref:typename:bool
+fun_cmp	structs.h	/^typedef bool(fun_cmp)(void*, void*);$/;"	t	typeref:typename:bool ()(void *,void *)
+func_calc	function.c	/^void *func_calc(Function *func, void *x)$/;"	f	typeref:typename:void *
+func_create	function.c	/^Function *func_create(Type dt, char *expr, void *a, void *b)$/;"	f	typeref:typename:Function *
+func_destroy	function.c	/^Function *func_destroy(Function *f)$/;"	f	typeref:typename:Function *
+func_get_pairs	function.c	/^Set *func_get_pairs(Function *func)$/;"	f	typeref:typename:Set *
+func_plot	function.c	/^void func_plot(Function *f, const char *xlabel, Point *intersection, const char *ylabel, const c/;"	f	typeref:typename:void
+func_plots	function.c	/^void func_plots(Function *f[], size_t size, Point **eq, const char *xlabel, const char *ylabel, /;"	f	typeref:typename:void
+func_slope	function.c	/^double func_slope(Function *func)$/;"	f	typeref:typename:double
+graph_create	graph.c	/^Graph *graph_create()$/;"	f	typeref:typename:Graph *
+graph_destroy	graph.c	/^Graph *graph_destroy(Graph *graph)$/;"	f	typeref:typename:Graph *
+graph_insert	graph.c	/^Graph *graph_insert(Graph *graph, double x, double y)$/;"	f	typeref:typename:Graph *
+graph_intersects	graph.c	/^Node *graph_intersects(Graph *f, Graph *g)$/;"	f	typeref:typename:Node *
+graph_plot	graph.c	/^void graph_plot(Graph *graph)$/;"	f	typeref:typename:void
+hash	structs.h	/^typedef unsigned int (*hash)(void*, int);$/;"	t	typeref:typename:unsigned int (*)(void *,int)
+ht_contain	hashtable.c	/^bool ht_contain(HashTable *hashtable, void *k, Type dt)$/;"	f	typeref:typename:bool
+ht_create_table	hashtable.c	/^HashTable *ht_create_table()$/;"	f	typeref:typename:HashTable *
+ht_delete	hashtable.c	/^void ht_delete(HashTable *hashtable)$/;"	f	typeref:typename:void
+ht_delete_node	hashtable.c	/^HashTable *ht_delete_node(HashTable *hashtable, void *k, Type dt)$/;"	f	typeref:typename:HashTable *
+ht_free_node	hashtable.c	/^static Node *ht_free_node(Node *list, Node* node)$/;"	f	typeref:typename:Node *	file:
+ht_free_table	hashtable.c	/^void ht_free_table(HashTable *hashtable)$/;"	f	typeref:typename:void
+ht_hash	hashtable.c	/^inline unsigned int ht_hash(void *k, int m, Type dt)$/;"	f	typeref:typename:unsigned int
+ht_hash_int_point	hashtable.c	/^unsigned int ht_hash_int_point(void *k, int m)$/;"	f	typeref:typename:unsigned int
+ht_hash_set	hashtable.c	/^unsigned int ht_hash_set(void *k, int m)$/;"	f	typeref:typename:unsigned int
+ht_insert	hashtable.c	/^HashTable *ht_insert(HashTable *hashtable, void *k, Type dt)$/;"	f	typeref:typename:HashTable *
+ht_print	hashtable.c	/^void ht_print(HashTable *hashtable, Type dt)$/;"	f	typeref:typename:void
+ht_print_float	hashtable.c	/^void ht_print_float(void *n)$/;"	f	typeref:typename:void
+ht_print_int	hashtable.c	/^void ht_print_int(void *n)$/;"	f	typeref:typename:void
+ht_search	hashtable.c	/^Node *ht_search(HashTable *hashtable, void *k, Type dt)$/;"	f	typeref:typename:Node *
+inttochar	helper.c	/^char inttochar(int n)$/;"	f	typeref:typename:char
+inttostr	helper.c	/^char* inttostr(int n)$/;"	f	typeref:typename:char *
+len	economy.c	/^#define len /;"	d	file:
+ll_count_of_list	linkedlist.c	/^unsigned int ll_count_of_list(Node *head)$/;"	f	typeref:typename:unsigned int
+ll_createlist	linkedlist.c	/^static Node *ll_createlist(Node *head, void *data, Type dt)$/;"	f	typeref:typename:Node *	file:
+ll_delete_at_postion	linkedlist.c	/^Node *ll_delete_at_postion( Node *head, unsigned int pos)$/;"	f	typeref:typename:Node *
+ll_delete_by_node	linkedlist.c	/^Node *ll_delete_by_node(Node *head, Node *node)$/;"	f	typeref:typename:Node *
+ll_delete_entire_list	linkedlist.c	/^Node *ll_delete_entire_list(Node *head)$/;"	f	typeref:typename:Node *
+ll_delete_first_Node	linkedlist.c	/^Node *ll_delete_first_Node( Node *head)$/;"	f	typeref:typename:Node *
+ll_delete_last_Node	linkedlist.c	/^void ll_delete_last_Node(Node *head)$/;"	f	typeref:typename:void
+ll_get_copy	linkedlist.c	/^Node *ll_get_copy(Node *head, Type type)$/;"	f	typeref:typename:Node *
+ll_get_last_Node	linkedlist.c	/^Node *ll_get_last_Node(Node *head)$/;"	f	typeref:typename:Node *
+ll_insert	linkedlist.c	/^Node *ll_insert(Node *head, void *data, Type dt)$/;"	f	typeref:typename:Node *
+ll_insert_at_beginning	linkedlist.c	/^Node *ll_insert_at_beginning(Node *head, void *data, Type dt)$/;"	f	typeref:typename:Node *
+ll_insert_at_end	linkedlist.c	/^Node *ll_insert_at_end(Node *head, void *data, Type dt)$/;"	f	typeref:typename:Node *
+ll_insert_at_pos	linkedlist.c	/^Node* ll_insert_at_pos( Node *head, int pos, void *data, Type dt) \/\/ pos = 2, data = 9$/;"	f	typeref:typename:Node *
+ll_inverse_list	linkedlist.c	/^void ll_inverse_list( Node **head)$/;"	f	typeref:typename:void
+ll_print_list	linkedlist.c	/^void ll_print_list(Node *head, Type dt)$/;"	f	typeref:typename:void
+ll_search	linkedlist.c	/^Node *ll_search(Node *head, void *data, Type dt)$/;"	f	typeref:typename:Node *
+ll_sort	linkedlist.c	/^void ll_sort(struct Node** headRef)$/;"	f	typeref:typename:void
+m	graph.c	/^  double m;$/;"	m	struct:Line	typeref:typename:double	file:
+main	main.c	/^int main(int argc, char **argv)$/;"	f	typeref:typename:int
+members	structs.h	/^  HashTable *members; \/\/ malloc then free, hence malloc(sizeof(HashTable)) and then free(membe/;"	m	struct:Set	typeref:typename:HashTable *
+n_length	polynomial.c	/^uint n_length(const char *n)$/;"	f	typeref:typename:uint
+name	info.json	/^  "name":"Mohammmed",$/;"	s
+next	structs.h	/^  struct Node *next;$/;"	m	struct:Node	typeref:struct:Node *
+non_linear	equation.c	/^static bool non_linear(Polynomial *poly)$/;"	f	typeref:typename:bool	file:
+orderofnumber	helper.c	/^int orderofnumber(int n)$/;"	f	typeref:typename:int
+p	graph.c	/^  double p;$/;"	m	struct:Line	typeref:typename:double	file:
+pl_is_init	plot.c	/^bool pl_is_init=false;$/;"	v	typeref:typename:bool
+pl_plot	plot.c	/^void pl_plot(Function *func)$/;"	f	typeref:typename:void
+pl_plot_points	plot.c	/^void pl_plot_points(Set *domain, Set *codomain, Point *intersection, const char *xlabel, const c/;"	f	typeref:typename:void
+pl_setting_labels	plot.c	/^void pl_setting_labels(const char *xlabel, const char *ylabel, const char *glabel)$/;"	f	typeref:typename:void
+pl_two_functions	plot.c	/^void pl_two_functions(Function *f1, Function *f2, const char *xlabel, const char *ylabel, const /;"	f	typeref:typename:void
+plot_established	economy.c	/^static bool plot_established=false;$/;"	v	typeref:typename:bool	file:
+plot_established	graph.c	/^static bool plot_established=false;$/;"	v	typeref:typename:bool	file:
+poly_add_term	polynomial.c	/^void poly_add_term(Polynomial **poly, double c)$/;"	f	typeref:typename:void
+poly_create	polynomial.c	/^Polynomial *poly_create(char *expr, Type dt)$/;"	f	typeref:typename:Polynomial *
+poly_destroy	polynomial.c	/^Polynomial *poly_destroy(Polynomial *poly)$/;"	f	typeref:typename:Polynomial *
+polynomial	polynomial.c	/^void polynomial(char *p, Polynomial **poly, Type dt)$/;"	f	typeref:typename:void
+polynomial	structs.h	/^  Polynomial *polynomial;$/;"	m	struct:Function	typeref:typename:Polynomial *
+polynomial	structs.h	/^  char *polynomial;$/;"	m	struct:Polynomial	typeref:typename:char *
+power	structs.h	/^  double power;$/;"	m	struct:Term	typeref:typename:double
+price	structs.h	/^  Set *price;$/;"	m	struct:Demand	typeref:typename:Set *
+price	structs.h	/^  Set *price;$/;"	m	struct:Supply	typeref:typename:Set *
+pt_delete	point.c	/^Point *pt_delete(Point *p)$/;"	f	typeref:typename:Point *
+quantity	structs.h	/^  Set *quantity;$/;"	m	struct:Demand	typeref:typename:Set *
+quantity	structs.h	/^  Set *quantity;$/;"	m	struct:Supply	typeref:typename:Set *
+set_add_const	set.c	/^Set *set_add_const(Set *s, double c)$/;"	f	typeref:typename:Set *
+set_belong	set.c	/^bool set_belong(Set *s, void *member)$/;"	f	typeref:typename:bool
+set_calc_slope	set.c	/^double set_calc_slope(Set *s1, Set *s2)$/;"	f	typeref:typename:double
+set_cart_prod	set.c	/^Set *set_cart_prod(Set *res, Set *s1, Set *s2)$/;"	f	typeref:typename:Set *
+set_complement	set.c	/^Set *set_complement(Set *res, Set *universal, Set *s)$/;"	f	typeref:typename:Set *
+set_create	set.c	/^Set *set_create(Type dt)$/;"	f	typeref:typename:Set *
+set_delete_member	set.c	/^void set_delete_member(Set **s, void *value, Type dt)$/;"	f	typeref:typename:void
+set_destroy	set.c	/^Set *set_destroy(Set *s)$/;"	f	typeref:typename:Set *
+set_difference	set.c	/^Set *set_difference(Set *res, Set *s1, Set *s2)$/;"	f	typeref:typename:Set *
+set_equality	set.c	/^bool set_equality(Set *s1, Set *s2)$/;"	f	typeref:typename:bool
+set_first_mem	set.c	/^void *set_first_mem(Set *s)$/;"	f	typeref:typename:void *
+set_get_copy	set.c	/^Set *set_get_copy(Set *s)$/;"	f	typeref:typename:Set *
+set_get_members	set.c	/^Node *set_get_members(Set *s)$/;"	f	typeref:typename:Node *
+set_get_pairs	set.c	/^Set *set_get_pairs(Set *domain, Set *codomain)$/;"	f	typeref:typename:Set *
+set_greatest_lower_bound	set.c	/^void *set_greatest_lower_bound(Set *s)$/;"	f	typeref:typename:void *
+set_insert	set.c	/^Set *set_insert(Set *s, void *member)$/;"	f	typeref:typename:Set *
+set_intersect	set.c	/^Set *set_intersect(Set *res, Set *s1, Set *s2)$/;"	f	typeref:typename:Set *
+set_is_empty	set.c	/^bool set_is_empty(Set *s)$/;"	f	typeref:typename:bool
+set_is_equivalent	set.c	/^bool set_is_equivalent(Set *s1, Set *s2)$/;"	f	typeref:typename:bool
+set_is_proper_subset	set.c	/^bool set_is_proper_subset(Set *s1, Set *s2)$/;"	f	typeref:typename:bool
+set_is_subset	set.c	/^bool set_is_subset(Set *s1, Set *s2)$/;"	f	typeref:typename:bool
+set_last_mem	set.c	/^void *set_last_mem(Set *s)$/;"	f	typeref:typename:void *
+set_least_upper_bound	set.c	/^void *set_least_upper_bound(Set *s)$/;"	f	typeref:typename:void *
+set_plot	set.c	/^void set_plot(Set *domain, Set *codomain, Point *intersection, const char *xlabel, const char *y/;"	f	typeref:typename:void
+set_plots	set.c	/^void set_plots(Set *domains[], Set *codomains[], size_t size, Node *pts, const char *xlabel, con/;"	f	typeref:typename:void
+set_power	set.c	/^Set *set_power(Set *res, Set *s)$/;"	f	typeref:typename:Set *
+set_print	set.c	/^void set_print(Set *s)$/;"	f	typeref:typename:void
+set_print_point	set.c	/^void set_print_point(Set *s, Type dt)$/;"	f	typeref:typename:void
+set_union	set.c	/^Set *set_union(Set *res, Set *s1, Set *s2)$/;"	f	typeref:typename:Set *
+size	economy.c	/^#define size /;"	d	file:
+size	structs.h	/^  unsigned int size;$/;"	m	struct:Node	typeref:typename:unsigned int
+solution	structs.h	/^  void *solution;$/;"	m	struct:Function	typeref:typename:void *
+sorts	structs.h	/^  Node *sorts;$/;"	m	struct:HashTable	typeref:typename:Node *
+starting	main.c	/^void starting()$/;"	f	typeref:typename:void
+strtoint	helper.c	/^int strtoint(char *str)$/;"	f	typeref:typename:int
+supply	structs.h	/^  Supply *supply;$/;"	m	struct:Economy	typeref:typename:Supply *
+table	structs.h	/^  Node **table;$/;"	m	struct:HashTable	typeref:typename:Node **
+table_count	structs.h	/^  unsigned int table_count; \/\/ size of table, (number of buckets)$/;"	m	struct:HashTable	typeref:typename:unsigned int
+term_create	term.c	/^Term *term_create()$/;"	f	typeref:typename:Term *
+term_destroy	term.c	/^Term *term_destroy(Term *term)$/;"	f	typeref:typename:Term *
+terms	structs.h	/^  Node *terms;$/;"	m	struct:Polynomial	typeref:typename:Node *
+ticker	info.json	/^  "ticker":"audusd"$/;"	s
+uint	function.h	/^typedef unsigned int uint;$/;"	t	typeref:typename:unsigned int
+x	structs.h	/^  void *x;$/;"	m	struct:Point	typeref:typename:void *
+x_pos	structs.h	/^  double x_pos;$/;"	m	struct:Term	typeref:typename:double
+y	structs.h	/^  void *y;$/;"	m	struct:Point	typeref:typename:void *
